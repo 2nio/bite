@@ -1,0 +1,44 @@
+:root {
+  --accent-color: #5D3FD3;
+  --base-color: #0F0F0F;
+  --base-variant: #1a1a1a;
+  --text-color: white;
+  --secondary-text: rgba(255, 255, 255, 0.7);
+  --disabled-hint-text: rgba(255, 255, 255, 0.5);
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+  --button-text: #fff;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #121212;
+  border-radius: 80px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #242424;
+  border-radius: 80px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #262626;
+}
+
+* {
+  margin: 0;
+  font-family: 'Satoshi';
+  color: var(--text-color);
+}
+
+body {
+  background-color: #0F0F0F;
+  display: grid;
+}
